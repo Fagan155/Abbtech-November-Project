@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navigation bar DEMO</title>
+    <style>
+      nav ul {
+        padding-left: 0;
+      }
+
+      nav li {
+        list-style: none;
+      }
+
+      nav a {
+        border-bottom: 1px solid #ccc;
+        display: block;
+        padding: 0.5rem 0.75rem;
+        text-decoration: none;
+      }
+
+      nav a:hover,
+      nav a:focus {
+        background-color: blue;
+        color: white;
+        outline: none;
+      }
+
+      nav a:active {
+        background-color: darkblue;
+      }
+
+      @media (min-width: 600px) {
+        nav a {
+          border: none;
+          display: inline-block;
+        }
+
+        nav li {
+          display: inline-block;
+        }
+      }
+      header {
+        width: auto;
+        background-color: rgba(245, 247, 250, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="staff.html">Staff</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="logo_home"></div>
+    </header>
+    <main></main>
+  </body>
+</html>

@@ -1,0 +1,1265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+}
+
+.left-side {
+  background-position: left center;
+  background-image: url("img/index_pic.png");
+  background-position: top right;
+  background-size: cover;
+  flex: 1 1 auto;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.right-side-forgot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+#right-icon-paragrapgh {
+  color: #ccc;
+  padding-left: 300px;
+}
+.right-icon {
+  padding-bottom: 40px;
+  margin: 20px;
+  width: 512px;
+  height: 112px;
+  gap: 40px;
+  font-size: 19px;
+}
+.right-icon img {
+  padding-left: 10px;
+  margin: 30px;
+  gap: 16px;
+}
+.right-icon-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+input[type="text"] {
+  width: 512px;
+  height: 48px;
+  padding: 12px, 16px, 12px, 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  gap: 8px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 512px;
+  height: 48px;
+  padding: 12px, 16px, 12px, 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  gap: 8px;
+}
+.right-input input[type="submit"] {
+  margin-top: 20px;
+  width: 512px;
+  height: 48px;
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 24px;
+  gap: 8px;
+  color: white;
+  background-color: rgba(74, 33, 239, 1);
+}
+.Forgot_Password {
+  text-align: right;
+  font-size: 19px;
+}
+.right-beyond {
+  padding-left: 160px;
+  font-size: 19px;
+}
+.right-beyond span {
+  color: rgba(74, 33, 239, 1);
+}
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+nav a:hover,
+nav a:focus {
+  background-color: rgba(74, 33, 239, 1);
+  color: white;
+  outline: none;
+}
+
+nav a:active {
+  background-color: rgba(74, 33, 239, 1);
+}
+nav a:visited {
+  color: black;
+}
+.destination_link a {
+  color: black;
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  nav a {
+    border: none;
+    display: inline-block;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+}
+header {
+  width: auto;
+  background-color: rgba(245, 247, 250, 1);
+  justify-content: space-between;
+}
+#currency {
+  margin: 4px;
+  background-color: rgba(245, 247, 250, 1);
+  border: none;
+  width: 50px;
+}
+.destination {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.destination li {
+  margin: 30px;
+}
+.logo_part_home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+}
+.input_home .lucky_submit {
+  margin-top: 20px;
+  width: 181px;
+  height: 48px;
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 24px;
+  gap: 8px;
+  color: white;
+  background-color: rgba(74, 33, 239, 1);
+}
+.input_home .login_submit {
+  margin-top: 20px;
+  width: 91px;
+  height: 48px;
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 24px;
+  gap: 8px;
+  color: black;
+  background-color: rgba(255, 255, 255, 1);
+}
+.login_submit {
+  margin: 10px;
+}
+.gif-container {
+  position: relative;
+}
+
+.gif {
+  width: 100%;
+}
+
+.input-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-container input {
+  border-radius: 99px;
+  padding-left: 30px;
+}
+
+.input-box {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.blogs {
+  background-color: #f9f9f9; /* Background color for the blog section */
+  padding: 20px;
+  text-align: center;
+}
+
+.blog {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+.input-box h1 {
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+.input-box h6 {
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+.trending_heading {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+.blog-container {
+  width: 33%;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-image {
+  width: 100%;
+  height: 200px;
+  background: url("img/placeholder.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-image-second {
+  width: 100%;
+  height: 200px;
+  background: url("img/placeholder_second.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blog-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.blog-description {
+  font-size: 14px;
+}
+.blog-image-second {
+  width: 100%;
+  height: 200px;
+  background: url("img/placeholder_second.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content-second {
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-title-second {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.blog-description-second {
+  font-size: 14px;
+}
+.blog-image-third {
+  width: 100%;
+  height: 200px;
+  background: url("img/placeholder_third.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content-third {
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-title-third {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.blog-description-third {
+  font-size: 14px;
+}
+.blog_length {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.blog-container p {
+  font-family: serif;
+  font-size: 12px;
+  text-align: left;
+}
+.blog-title-third {
+  color: rgba(94, 111, 125, 1);
+}
+.blog-title-second {
+  color: rgba(94, 111, 125, 1);
+}
+.blog-date {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.branding_heading {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.blog-image-four {
+  width: 100%;
+  height: 200px;
+  background: url("img/placeholder_four.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content-four {
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-title-four {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.blog-description-four {
+  font-size: 14px;
+}
+.blog-image-five {
+  width: 100%;
+  height: 200px;
+  background: url("img/placeholder_five.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-image-six {
+  width: 100%;
+  height: 200px;
+  background: url("img/placeholder_six.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.why-container {
+  border-radius: 30px;
+  background: rgba(245, 247, 250, 1);
+  height: 100px;
+  width: 27%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.why-image {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+.why-image img {
+  width: 50px;
+}
+.why-content {
+  margin-left: 20px;
+}
+.expert_length {
+  width: 1100px;
+  display: flex;
+}
+.callcenter {
+  margin-left: 150px;
+}
+.callcenter2 {
+  margin-top: 40px;
+  margin-right: 100px;
+}
+.textbubble {
+  position: relative;
+  bottom: 190px;
+  left: 30px;
+}
+.textbubble_second {
+  position: relative;
+  bottom: 120px;
+  left: 900px;
+}
+.home_pic {
+  max-width: 100%; /* Set the maximum width to 100% of the viewport width */
+  overflow: hidden;
+  position: relative;
+}
+.home_pic img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay-container {
+  position: absolute;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 250px;
+  top: 60%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay-container-second {
+  position: absolute;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 100px;
+  top: 88%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay-container-italy {
+  position: absolute;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  height: 100px;
+  top: 70%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay-container-italy p {
+  margin: 20px;
+  text-align: left;
+}
+.overlay-container p {
+  margin: 20px;
+  text-align: left;
+}
+#Thanks {
+  color: rgba(74, 33, 239, 1);
+  font-family: inter;
+  font-weight: bold;
+}
+.overlay-container-second img {
+  width: 60px;
+}
+.overlay-container-second p {
+  text-align: left;
+}
+.overlay-container-second {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#craft {
+  color: rgba(120, 135, 149, 1);
+  font-size: 12px;
+  line-height: 16px;
+}
+.blog-image-iceland {
+  width: 100%;
+  height: 200px;
+  background: url("img/iceland.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content-iceland {
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-title-iceland {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.blog-description-iceland {
+  font-size: 14px;
+}
+.blog-image-scottish {
+  width: 100%;
+  height: 200px;
+  background: url("img/scottish.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content-scottish {
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-title-scottish {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.blog-description-scottish {
+  font-size: 14px;
+}
+.blog-image-portugal {
+  width: 100%;
+  height: 200px;
+  background: url("img/portugal.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content-portugal {
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-title-portugal {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.blog-description-portugal {
+  font-size: 14px;
+}
+.blog-image-china {
+  width: 100%;
+  height: 200px;
+  background: url("img/china.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content-china {
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-title-china {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.blog-description-china {
+  font-size: 14px;
+}
+.blog-image-thailand {
+  width: 100%;
+  height: 200px;
+  background: url("img/thailand.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content-thailand {
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-title-thailand {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.blog-description-thailand {
+  font-size: 14px;
+}
+.blog-image-taiwan {
+  width: 100%;
+  height: 200px;
+  background: url("img/taiwan.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content-taiwan {
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-title-taiwan {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.blog-description-taiwan {
+  font-size: 14px;
+}
+.elsewhere {
+  margin-top: 40px;
+  background-color: rgba(74, 33, 239, 1);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 150px;
+  display: flex;
+}
+#destinations {
+  margin-left: 30px;
+}
+.dest_foot {
+  margin-left: 20px;
+  height: 40px;
+  border-radius: 30px;
+  width: 180px;
+  background-color: #f9f9f9;
+  color: black;
+  line-height: 35px;
+}
+.combined-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.bordered-input {
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 99px;
+  outline: none;
+  transition: border-color 0.3s, background-color 0.3s;
+  width: 300px;
+  height: 30px;
+}
+
+.signup-button {
+  margin: 10px;
+  background: rgba(74, 33, 239, 1);
+  width: 100px;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 99px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+.combined-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  margin: 80px;
+}
+#signupInput {
+  border-radius: 99px;
+}
+#combined {
+  padding: 20px;
+  text-align: center;
+}
+
+.main-footer {
+  background-color: rgba(245, 247, 250, 1);
+  padding: 72px 182px 72px 182px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-around;
+}
+.footer-body {
+  padding: 0;
+  margin: 0;
+}
+.footer-menu {
+  width: 25%;
+  margin-left: 40px;
+}
+.main-footer li {
+  margin-left: 10px;
+}
+.footer-support {
+  width: 25%;
+}
+
+.footer-social {
+  width: 25%;
+}
+.footer-logo {
+}
+#footer-parag {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+#copyright {
+  font-size: 12px;
+}
+.footer-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#footer-menu {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: black;
+}
+#footer-support {
+  font-weight: bold;
+  padding: 10px;
+}
+.footer-support ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-social ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#footer-social {
+  font-weight: bold;
+  padding: 10px;
+}
+li {
+  list-style: none;
+}
+.dest_foot a {
+  text-decoration: none;
+}
+.overlay-container-destinations {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.destinations-ul {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.destinations-ul h2 {
+  margin-bottom: 30px;
+  color: rgba(74, 33, 239, 1);
+}
+.destionations-borders li {
+  margin-bottom: 10px;
+  border-right: 1px solid rgba(227, 231, 235, 1);
+  padding-right: 120px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.destionations-nonborders li {
+  margin-bottom: 10px;
+  padding-right: 120px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.top-destinations-heading {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.destinations-blog-length {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  margin-left: 40px;
+}
+.blog-image-destinations-Italy {
+  width: 100%;
+  height: 200px;
+  background: url("img/destinations-italy.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-image-destinations-portugal {
+  width: 100%;
+  height: 200px;
+  background: url("img/destinations-portugal.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-image-destinations-turkey {
+  width: 100%;
+  height: 200px;
+  background: url("img/destinations-turkey.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-image-destinations-iceland {
+  width: 100%;
+  height: 200px;
+  background: url("img/destinations-iceland.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.destionations-borders a {
+  text-decoration: none;
+  color: black;
+}
+.input-box-Italy {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.input-box-Italy h1 {
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+.input-box-Italy h5 {
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+.Italy-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(64, 64, 64, 0.5);
+  pointer-events: none;
+}
+.Italy-container {
+  position: relative;
+}
+.input-box-Italy input[type="submit"] {
+  width: 150px;
+  height: 48px;
+  padding: 12px, 22px, 12px, 24px;
+  border-radius: 24px;
+  gap: 8px;
+  color: white;
+  background-color: rgba(74, 33, 239, 1);
+}
+.pic-italy {
+  width: 100%;
+}
+.blog-container-map {
+  width: 400px;
+  height: 250px;
+
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.blog-image-map {
+  width: 100%;
+  height: 150px;
+  background: url("img/Italy.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-container-map h4 {
+  font-family: serif;
+  font-size: 14px;
+  text-align: left;
+}
+.Itinerary-heading {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.Itinerary-length {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+.Itinerary-container {
+  width: 33%;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Itinerary-image {
+  width: 100%;
+  height: 200px;
+  background: url("img/vatican.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.Itinerary-content {
+  padding: 10px;
+  /* text-align: center; */
+}
+.Itinerary-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.Itinerary-description {
+  font-size: 14px;
+}
+.Itinerary-container p {
+  font-family: serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+.Itinerary-image-second {
+  width: 100%;
+  height: 200px;
+  background: url("img/Colosseum.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.Itinerary-image-third {
+  width: 100%;
+  height: 200px;
+  background: url("img/basilica.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.destination-container {
+  width: 400px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.destination-container p {
+  font-family: serif;
+  font-size: 12px;
+  text-align: left;
+}
+.blog-image-destinations-icelandd {
+  width: 100%;
+  height: 200px;
+  background: url("img/icelandd.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-image-destinations-costa {
+  width: 100%;
+  height: 200px;
+  background: url("img/costa.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-image-destinations-argentina {
+  width: 100%;
+  height: 200px;
+  background: url("img/argentina.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.guidance_length {
+  display: grid;
+  padding-left: 30px;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 32% 32% 32%;
+  gap: 10px;
+}
+.guidance-container {
+  height: 128px;
+  border-radius: 20px;
+  background: rgba(245, 247, 250, 1);
+  display: flex;
+}
+.guidance-content h4 {
+  padding: 10px;
+}
+.guidance-content p {
+  padding: 10px;
+  font-size: 12px;
+}
+.guidance-image img {
+  padding: 20px;
+}
+.text-about {
+  width: 500px;
+  margin: 120px 500px;
+}
+.text-about h2 {
+  padding: 30px;
+}
+.footer-support a {
+  text-decoration: none;
+  color: black;
+}
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.question {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.answer {
+  display: none;
+}
+.app {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.faq-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.faq-answer {
+  padding: 1rem;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.faq-question button {
+  background-color: rgba(74, 33, 239, 1);
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.faq-question-number {
+  color: rgba(74, 33, 239, 1);
+  font-weight: bold;
+  font-size: 26px;
+}
+.contacts-list {
+  padding: 100px;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#contact-right-first-heading {
+  padding-bottom: 20px;
+}
+.contact-left-side p {
+  padding-top: 20px;
+}
+.contact-right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.contact-right-side p {
+  padding-top: 20px;
+}
+.contact-right-side :first-child h2 {
+  padding-bottom: 20px;
+}
+#email {
+  font-size: 16px;
+  color: rgba(74, 33, 239, 1);
+}
+.categories {
+  margin: 30px;
+  margin-left: 20px;
+  height: 40px;
+  border-radius: 30px;
+  width: 140px;
+  background-color: rgba(245, 247, 250, 1);
+
+  color: black;
+  line-height: 35px;
+}
+#categeries-text {
+  color: rgba(58, 77, 90, 1);
+
+  font-size: 14px;
+  text-align: center;
+}
+#categeries-text-all {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+.categories-flexbox {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.categories-all {
+  margin: 30px;
+  margin-left: 20px;
+  height: 40px;
+  border-radius: 30px;
+  width: 140px;
+  background-color: rgba(74, 33, 239, 1);
+  color: black;
+  line-height: 35px;
+}
+.article-container {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.article-container p {
+  font-family: serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+.article-length-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.article-length-upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+
+.article-image {
+  width: 100%;
+  height: 200px;
+  background: url("img/vatican.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.article-content {
+  padding: 10px;
+}
+.article-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.article-description {
+  font-size: 14px;
+}
+.article-container-top {
+  margin: 20px;
+  border: 1px solid #ccc;
+  width: 44.5%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.article-container-top p {
+  font-family: serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+.article-container-upper {
+  margin: 20px;
+  border: 1px solid #ccc;
+  width: 28%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.article-container-upper p {
+  font-family: serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+.article-image-breakfast {
+  width: 100%;
+  height: 200px;
+  background: url("img/breakfast.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.article-description-blog {
+  font-size: 14px;
+  padding-right: 100px;
+}
+.article-image-see {
+  width: 100%;
+  height: 200px;
+  background: url("img/see_do.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.article-image-inspration {
+  width: 100%;
+  height: 200px;
+  background: url("img/inspration.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.article-image-travel-tips {
+  width: 100%;
+  height: 200px;
+  background: url("img/travel_tips.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.article-image-drink {
+  width: 100%;
+  height: 200px;
+  background: url("img/drink.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
